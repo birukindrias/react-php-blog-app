@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.post{
+  background-color: rgb(202, 202, 202);
+  display: flex !important;
+  /* width: 200px;
+  height: 200px; */
+  flex-direction: column !important;
+
+}
+.likeacomment{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  overflow-x: hidden;
+  padding: 1.2rem;
+  margin: 5rem;
+  border-radius: 5px;
+}
+.likes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.poster{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: spa
+  ce-evenly; */
+  /* paddi */
+  width: 10rem;
+  padding: .3rem;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  width:100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.txt {
+  padding: 1.3rem;
+  /* width: 5rem; */
+      overflow-wrap: break-word;  
+
+  /* padding: 2px 16px; */
+}
